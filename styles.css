@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: black;
+}
+.slider img {
+  width: 100%;
+}
+.slider-container {
+  max-width: 100%;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 2rem;
+}
+.slider-button {
+  align-self: center;
+  cursor: pointer;
+  color: white;
+}
